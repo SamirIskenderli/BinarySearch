@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-     /*   tersine cevirmek
+     //   tersine cevirmek
         String original = "Salam necesen?";
 
         int stringLength = original.length();
@@ -9,10 +9,10 @@ public class Main {
         for (int i = 0; i < stringLength; i++) {
             result = original.charAt(i) + result;
         }
-        System.out.println(result); */
+        System.out.println(result);
 
 
-        /*    Polindrom
+        //    Polindrom
         String text = "rada";
 
         StringBuilder reverse = new StringBuilder();
@@ -23,7 +23,7 @@ public class Main {
         }
         System.out.println((reverse.toString()).equals(clean));
 
-         */
+
 
 
 
