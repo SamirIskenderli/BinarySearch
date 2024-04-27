@@ -1,35 +1,37 @@
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
+     /*   tersine cevirmek
+        String original = "Salam necesen?";
 
-        int index = recursiveBinarySearch(new int[]{3, 22, 27, 47, 57, 67, 89, 91, 95, 99}, 0, 10, 67);
-        System.out.println(index);
-
-
-    }
-
-    public static int recursiveBinarySearch(int arr[], int firstElement, int lastElement, int elementToSearch) {
-
-
-        if (lastElement >= firstElement) {
-            int mid = firstElement + (lastElement - firstElement) / 2;
-
-
-            if (arr[mid] == elementToSearch)
-                return mid;
-
-
-            if (arr[mid] > elementToSearch)
-                return recursiveBinarySearch(arr, firstElement, mid - 1, elementToSearch);
-
-
-            return recursiveBinarySearch(arr, mid + 1, lastElement, elementToSearch);
+        int stringLength = original.length();
+        String result = "";
+        for (int i = 0; i < stringLength; i++) {
+            result = original.charAt(i) + result;
         }
+        System.out.println(result); */
 
-        return -1;
+
+        /*    Polindrom
+        String text = "rada";
+
+        StringBuilder reverse = new StringBuilder();
+        String clean = text.replaceAll("\\s+", "").toLowerCase();
+        char[] plain = clean.toCharArray();
+        for (int i = plain.length - 1; i >= 0; i--) {
+            reverse.append(plain[i]);
+        }
+        System.out.println((reverse.toString()).equals(clean));
+
+         */
+
+
+
+
+
     }
-
 }
+
+
 
 
